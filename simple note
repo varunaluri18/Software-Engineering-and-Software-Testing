@@ -1,0 +1,222 @@
+6th July
+Programming Foundations with PSeudocode:
+
+Pseudo Code: A Pseudo Code is an algorithim expressed in a Natural Language rather than in a Programmimg Language.
+
+What is a Program:
+. A Program is a set of instructions for a computer to perform a specific task.
+. Programs can be written in one or more programming languages.
+. It is categorized as Machine Language,Assembly Language,Compliled Language,Interpeted Language,Objected Oriented Language.
+
+Application Program:
+. Any Program designed to perform a specific functionallity.
+EX: Note Pad,Paint
+
+Software:
+. A set of Programs and associated documentation concerened with a specific operation stored electronically
+EX: MS Office, SAP, Oracel.
+
+Industry Level Projects
+. Readable
+. Maintainable
+. Modular
+. Reliable
+. Robust
+. Efficient
+. Easy to use
+. Flexiable
+. Extendable
+. Reusable
+
+
+Deliverables:
+. Test Cases(Black and White Box)
+. Documented Source Code
+. Code Review
+. Time Sheet data(Effort) and Defect data(logging and clouser)
+. check in the source code control system
+. code integraion test results
+. Task closure
+
+
+Control Constructs
+. Sequence(step by step)
+. Selection(lf..then & if..then..else)
+. Repition(Looping statements)
+
+
+Write a pseudocode to accept 2 numbers and find the sum of those numbers
+Write a pseudocode to accept 10 numbers and find maximum number among 10 numbers
+--------------------------------------------------------------------------------
+7th July
+Programming Foundations with Pseudocode:
+
+Characteristics of a good program
+. Redable
+. Maintainable
+. Modular
+. Coupling
+. Cohesion
+. Robust
+
+Variable Types:
+. Temporary Variable
+. Boolean Variable
+. Status Variable
+
+Name Length:
+. Too Long - NumberOfPeopleOnTheOlympicTeam
+. Too Short - N, NP, NTM, M
+. Just Right - NumTeamMemebers
+
+Self-Documenting code:
+. Good Program Structure
+. Use of Straight forward and easily understand approaches
+. Good variable names
+. Good routine names
+
+Kinds of Comments:
+. Repeat of the code
+. Explanation of the code
+. Markerin the code /**@@ to do */
+. Summary of the code
+. Description of the code's intent
+
+Commenting Techniques:
+. Endline Comments
+. Paragraph Comments
+
+****Program for Printing Pay SLip***
+
+Modular:
+. Reduce Complexity
+. Code Resuable
+. Better Documentation
+. Maintenance
+. Improve Performance
+. Avoid Duplicate code
+
+Characteristics of a well defined module
+. High Cohesion
+. Low Coupling
+
+Writting a Good Code:
+. Program for People and not for machine
+. Analyze the Case Study
+. Design first and then code
+. Develop in small steps
+. Keep your code in simple
+. Document your code
+. Paragraph your code
+. Use WhiteSpace
+. Change Request
+
+Refactoring:
+. Removal of Dead and Duplicate Code
+. Method/Field/Component name Refactoring
+. Architecture Driven Refactoring
+
+
+Algorithm Design Technique:
+. Brute Force
+. Divide and Conquer
+. Decrease and Conquer
+. BackTracking
+. Branch and Bound
+
+Algorithim Efficiency:Number of times the basic operation is executed for input size n(larger number)
+
+Order of Growth:
+Asymptotic Notation are
+. Big O (Worst Case)
+. Big Omega (Good Case)
+. Big Theta(Average Case)
+
+
+Searching Techniques:
+. Sequential search
+. Binary Search
+
+______________________________________________________
+8th July
+
+Algorithim Techniques:
+. Brute Force - Just Do It
+Eg: Bubble Sort, Selection Sort
+
+//Sort a given array using bubble sort
+//Input: An arraylist[0..n-1] of ordered elements
+//Output: An array list[0..n-1] sorted in ascending order
+
+. Divide and Conquer - Merge Sort, Quick Sort
+//Sort a given array A[0,n-1] by dividing into two halves A[0..n/2-1] and A[n/2..n-1]
+
+. Decrease and Conquer - Insertion Sort
+Decrease by a constant
+Decrease by a constant factor
+Variable size decrease
+Eg: 5 7 0 3 4 2 6 1 (0) -only a[0] is in sorted part
+    5 7 0 3 4 2 6 1 (0) -array is sorted till a[1]
+
+.Back Tracking
+Eg: n-Queen Problem
+
+.Branch and Bound
+Enhancment of back tracking technique
+		Job1	Job2	Job3	Job4
+Person A	9	2	7	8
+Person B	6	4	3	7
+Person C	5	8	1	8
+Person D	7	6	9	4
+
+Lower Bound  2+3+1+4=10
+
+
+Exception Handling
+Eg:
+SUB readFile
+	Open the file;
+	Determime its size;
+	Read data from the file;
+	Close the file;
+EXCEPTION 
+	WHEN fileOpenFailed THEN
+		doSomething;
+	WHEN Size DeterminationFailed
+THEN
+	doSomething
+	WHEN readFailed THEN
+		doSomething;
+	WHEN fileCloseFailed THEN
+		doSomething;
+END SUB                                        
+
+Defensive Programming
+It helphs to provide the minute errors in the earlier stage 
+It is not Error Checking 
+Not for Testing
+Not for Debugging
+
+Techiniques of Defence Programming
+. Input Validation
+. Error Handling
+_________________________________________
+9th July
+Software Engineering
+A systematic, disiplined,and mesaurable approach towards development,operation and maintence of a Software.
+SDLC-Software Development Life Cycle
+. Requirment Gathering
+. Design
+. Coding/Develop
+. Testing/Quality Analysis
+. Go live/Production
+. Maintenance
+
+Eg: WaterFall model,RAD(Rapuid Application Development Process) model,V model, Spiral model,Incremental model,Agile model,Derived model,Hybrid model,Big Bang model,Iterative model,Quick Fix models,Bohems model,Iterative Enhancement model,Reuse Oriented model.
+
+Agile Model:It will enable the developers.It is easy for development.
+Active StakeHolder Involvement
+Collective Ownership
+Keep it simple(content,design,tools)
+Model in small increments
+Apply modeling standards
